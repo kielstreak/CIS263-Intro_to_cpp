@@ -21,7 +21,7 @@ int putStringsInVector(int num){
 }
 
 void modifyVector(std::vector<int> & vector){
-        for(unsigned int i =  4; i < vector.size(); i+=5)
+        for(unsigned int i =  0; i < vector.size(); i+=5)
                 vector.at(i) = 42;
 }
 
